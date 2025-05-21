@@ -56,10 +56,10 @@ def mostrarMenu():
     boton2 = tk.Button(ventana, text="Opción 2", font=("Arial", 14), width=20, command=mostrarOpcion2)
     boton2.pack(pady=10)
 
-    boton3 = tk.Button(ventana, text="Opción 3", font=("Arial", 14), width=20, command=mostrarOpcion2)
+    boton3 = tk.Button(ventana, text="Opción 3", font=("Arial", 14), width=20, command=mostrarOpcion3)
     boton3.pack(pady=10)
 
-    boton4 = tk.Button(ventana, text="Opción 4", font=("Arial", 14), width=20, command=mostrarOpcion2)
+    boton4 = tk.Button(ventana, text="Opción 4", font=("Arial", 14), width=20, command=mostrarOpcion4)
     boton4.pack(pady=10)
 
 def main():
